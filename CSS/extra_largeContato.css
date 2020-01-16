@@ -6,17 +6,14 @@ body{
 }
 
 section h1{
-    margin-left: 20%;
-    margin-top: 60px;
     color: rgb(173, 53, 53);
     font-size: 80px;
 }
 
 section li{
-    margin-top: 50px;
-    margin-left: 20%;
+    margin-bottom: 16px;
     font-size: 25px;
-    box-shadow: 10px 10px 10px 5px black;
+    box-shadow: 2px 2px 4px black;
     color: black;
 }
 
@@ -24,18 +21,21 @@ iframe{
     float: left;
     border: 1px solid #ccc;
     border-radius: 10px;
-    width: 470px;
-    height: 329px;
-    margin-left: 120%;
+}
+
+.svg{
+  text-align: center;
 }
 
 .svg img{
-  margin-left: 850%;
-  margin-top: 50px;
-  width: 50px;
+  width: 38px;
   display: inline-block;
 }
 
-.svg1 img{
-  margin-bottom: 20px;
+.localizacao{
+  margin: 40px 0;
+  display: flex;
+  justify-items: center;
+  justify-content: space-around;
+  align-items: center;
 }
