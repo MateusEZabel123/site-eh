@@ -4,6 +4,12 @@ body{
     background-size: cover;
     overflow-x: hidden;
 }
+.numero p{
+  margin-top: 20px;
+  color: white;
+  font-size: 12px;
+  text-decoration: underline;
+}
 
 section h1{
     color: rgb(173, 53, 53);
