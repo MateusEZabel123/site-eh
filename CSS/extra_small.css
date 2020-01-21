@@ -1,7 +1,8 @@
-form h1{
+.conheca h1{
     text-align: center;
     margin-top: 22px;
     margin-bottom: 22px;
+    text-decoration: underline;
 }
 
 .numero p{
@@ -10,7 +11,7 @@ form h1{
     font-size: 12px;
     text-decoration: underline;
     margin-right: auto;
-    margin-right: 160px;
+    margin-right: 200px;
 }
 
 .sobre img{
@@ -20,6 +21,7 @@ form h1{
 .obras h1{
     font-size: 20px;
     text-align: center;
+    margin-top: 20px;
 }
 
 .sobre p{
@@ -33,6 +35,41 @@ form h1{
     padding: 10px;
 }
 
+.atendimento{
+    padding: 0px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .viacred h2{
+    text-align: center;
+    font-size: 2rem;
+    padding: 0px;
+    display: inline-flex;
+    margin-top: 20px;
+}
+
+.viacred img{
+    width: 150px;
+    margin-right: 20%;
+    margin: auto;
+}
+
+.fale{
+    margin-left: 27%;
+    font-size: 2rem;
+    padding: 0px;
+    display: inline-flex;
+    margin-top: 37px;
+}
+
+.fale p{
+    font-size: 17px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+  
 footer{
     text-align: center;
     color: white;

@@ -5,7 +5,7 @@
     text-decoration: underline;
 }
 
-form h1{
+.conheca h1{
     text-align: center;
     margin-top: 30px;
     text-decoration: underline; 
@@ -122,7 +122,42 @@ form h1{
     width: 100px;
 }
 
+.atendimento{
+  padding: 0px;
+  margin-right: 7%;
+  text-align: center;
+}
 
+.fale{
+    margin-left: 5px; 
+}
+
+.linha-vertical1{
+    height: 100px;
+    border-left: 2px solid;
+    padding: 15px;
+}
+
+.linha-vertical{
+    height: 100px;
+    border-left: 2px solid;
+    margin-left: 2%;
+    padding: 15px;
+}
+
+.viacred img{
+    width: 170px;
+    margin-right: 20%;
+    
+}
+
+.viacred h2{
+    margin-right: 20%;
+    text-align: center;
+    font-size: 2rem;
+    padding: 0px;
+    display: inline-flex;
+}
 
 footer{
     text-align: center;
