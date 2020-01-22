@@ -3,3 +3,25 @@ main h1{
     font-family: cursive;
     margin-top: 30px;
 }
+
+.card_img{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin: 25px;
+}
+
+.small_img{
+    height: 100%;
+    cursor: pointer;
+}
+
+.row{
+    display: flex;
+}
+
+.modal{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0,  .7);
+}
