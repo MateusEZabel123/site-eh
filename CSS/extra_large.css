@@ -133,21 +133,24 @@ body {
 }
 
 .linha-vertical1{
+    height: 150px;
     height: 140px;
     border-left: 2px solid;
     padding: 15px;
     margin: auto;
     margin-bottom: 20px;
-    
+
 }
 
 .viacred img{
     width: 170px;
+    margin-left: 150%;    
     margin-left: 65%;    
 }
 
 .viacred h2{
     padding: 10px;
+    margin-left: 0%;
     margin-right: 30%;
     text-align: justify;
     width: 300%;
