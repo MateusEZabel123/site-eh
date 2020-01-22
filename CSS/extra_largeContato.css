@@ -1,22 +1,16 @@
 body{
-    background-image: url(../Imagens/pexels-phto.jpeg); 
+    background-image: url(../Imagens/borrado.jpeg); 
     background-repeat: no-repeat;
     background-size: cover;
     overflow-x: hidden;
 }
-.numero p{
-  margin-top: 20px;
-  color: white;
-  font-size: 12px;
-  text-decoration: underline;
-}
 
 section h1{
-    color: rgb(173, 53, 53);
-    font-size: 80px;
-    text-decoration: underline;
+  color: rgb(255, 255, 255);
+    font-size: 48px;
     margin-bottom: 30px;
     margin-left: 7%;
+    box-sizing: border-box;
 }
 
 section li{

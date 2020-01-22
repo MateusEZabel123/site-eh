@@ -35,10 +35,17 @@
     padding: 10px;
 }
 
-.atendimento{
+.atendimento h2{
     padding: 0px;
     text-align: center;
     margin-top: 20px;
+    margin-left: 50%;
+  }
+
+  .atendimento p{
+    width: 300px;
+    margin-left: 30%;
+    text-align: center;
   }
 
   .viacred h2{
@@ -47,29 +54,16 @@
     padding: 0px;
     display: inline-flex;
     margin-top: 20px;
+    width: 300px;
+    margin-left: 35%;
 }
 
 .viacred img{
-    width: 150px;
-    margin-right: 20%;
-    margin: auto;
-}
-
-.fale{
-    margin-left: 27%;
-    font-size: 2rem;
-    padding: 0px;
-    display: inline-flex;
-    margin-top: 37px;
-}
-
-.fale p{
-    font-size: 17px;
-    margin: auto;
+    width: 180px;
+    margin-left: 65%;
     margin-bottom: 30px;
 }
 
-  
 footer{
     text-align: center;
     color: white;
