@@ -4,6 +4,55 @@ main h1{
     font-family: cursive;
 }
 
+.card_img{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin: 25px auto;
+    border-radius: 5px;    
+}
+
+.small_img{
+    height: 100%;
+    cursor: pointer;
+}
+
+.row{
+    display: flex;
+}
+
+.bathroom{
+    text-align: center;
+}
+
+
+.card_img1{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin: 25px auto;
+    border-radius: 5px;
+    margin-left: 15%;    
+}
+
+.card_img5{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin-left: 3%;
+    border-radius: 5px;    
+    margin-top: 30px;
+}
+
+.card_img7{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin: 25px auto;
+    border-radius: 5px;
+}
+
+
 .marcas h1{
     text-align: center;
     margin-top: 30px;
