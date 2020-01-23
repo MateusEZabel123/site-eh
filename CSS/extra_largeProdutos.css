@@ -8,7 +8,8 @@ main h1{
     width: 300px;
     height: 300px;
     overflow: hidden;
-    margin: 25px;
+    margin: 25px auto;
+    border-radius: 5px;    
 }
 
 .small_img{
@@ -20,8 +21,57 @@ main h1{
     display: flex;
 }
 
-.modal{
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0,  .7);
+.bathroom{
+    text-align: center;
+}
+
+.card_img1{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin: 25px auto;
+    border-radius: 5px;
+    margin-left: 15%;    
+}
+
+.card_img5{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin-left: 3%;
+    border-radius: 5px;    
+    margin-top: 30px;
+}
+
+.card_img7{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin: 25px auto;
+    border-radius: 5px;
+}
+
+.marcas h1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.marcas img{
+    width: 300px;
+    margin-top: 20px;
+    border: solid black;
+    border-radius: 10px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background-color: #212529;
+    padding: 1px;
+    margin-top: 30px;
+}
+
+footer p{
+    margin: 15px 0;
 }
