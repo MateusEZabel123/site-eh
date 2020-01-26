@@ -64,6 +64,10 @@ main h1{
     border-radius: 5px;    
 }
 
+.entre h1{
+    text-align: center;
+}
+
 .marcas h1{
     text-align: center;
     margin-top: 30px;
@@ -71,9 +75,8 @@ main h1{
 
 .marcas img{
     width: 300px;
-    margin-top: 20px;
-    border: solid black;
-    border-radius: 10px;
+    border: 2px solid black;
+    border-radius: 4px;
 }
 
 footer{
@@ -87,4 +90,12 @@ footer{
 
 footer p{
     margin: 15px 0;
+}
+
+.marcas{
+    display: flex;
+}
+
+.marcas div{
+    margin: 16px;
 }
