@@ -28,25 +28,36 @@
     margin: auto;
 }
 
+.atendimento{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 16px auto;
+  }
+  
+  .atendimento p{
+      margin: 2px auto;
+  }
+  
+  .atendimento P, .atendimento h5{
+      text-align: center;
+  }
+  
+  .atendimento img{
+      width: 100px;
+  }
+  
+  .atendimento .imgs{
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+  }
 
 .obras img{
     width: 100%;
     height: 90px;
     padding: 10px;
 }
-
-.atendimento h2{
-    padding: 0px;
-    text-align: center;
-    margin-top: 20px;
-    margin-left: 50%;
-  }
-
-  .atendimento p{
-    width: 300px;
-    margin-left: 30%;
-    text-align: center;
-  }
 
   .viacred h2{
     text-align: center;
