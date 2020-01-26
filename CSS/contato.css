@@ -1,0 +1,118 @@
+.uppercase{
+    text-transform: uppercase !important;
+}
+
+.footer{
+    width: 100%;
+    background-color: #343a40;
+    position: relative;
+    bottom: 0;
+}
+
+.footer p{
+    margin: 0 auto;
+    padding: 16px 8px;
+    width: fit-content;
+    color: #fff;
+    text-align: center;
+}
+
+.localizacao{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.localizacao > div{
+    margin: 36px auto;
+    width: fit-content;
+}
+
+iframe{
+    border: 8px solid #343a40 !important;
+    border-radius: 24px;
+    width: 714px !important;
+    max-width: 714px !important;
+}
+
+.localizacao div ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.localizacao div ul li{
+    display: block;
+    border: 2px solid #343a40;
+    max-width: 316px;
+    list-style: none !important;
+    margin: 24px;
+    padding: 16px !important;
+    text-align: center;
+}
+
+.localizacao div ul li p{
+    text-align: center;
+    margin: 0;
+    word-break: break-all;
+}
+
+.localizacao div ul li h5{
+    text-align: center;
+    margin: 4px 0 !important;
+}
+
+.svg{
+    width: 48px;
+    height: 48px;
+}
+
+.link, .link:hover{
+    color: #343a40;
+    text-decoration: none !important;
+}
+
+.link:hover{
+    
+}
+
+@media(max-width: 1004px){
+    iframe{
+        width: 566px !important;
+        max-width: 566px !important;
+    }
+}
+
+@media(max-width: 798px){
+    iframe{
+        width: 448px !important;
+        max-width: 448px !important;
+    }
+}
+
+@media(max-width: 618px){
+    .localizacao div ul{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    iframe{
+        width: 296px !important;
+        max-width: 296px !important;
+    }
+}
+
+@media(max-width: 420px){
+    iframe{
+        width: 196px !important;
+        max-width: 196px !important;
+        max-height: 196px !important;
+    }
+}
+
+@media(max-width: 260px){
+    iframe{
+        width: 102px !important;
+        max-width: 102px !important;
+        max-height: 102px !important;
+    }
+}
