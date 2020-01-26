@@ -44,14 +44,21 @@ iframe{
   align-items: center;
 }
 
-footer{
+.uppercase{
+  text-transform: uppercase !important;
+}
+
+.footer{
+  width: 100%;
+  background-color: #343a40;
+  position: relative;
+  bottom: 0;
+}
+
+.footer p{
+  margin: 0 auto;
+  padding: 16px 8px;
+  width: fit-content;
+  color: #fff;
   text-align: center;
-  color: white;
-  font-size: 20px;
-  background-color: #212529;
-  padding: 1px;
-  position:absolute;
-    bottom:0;
-    width:100%;
-  
 }
