@@ -1,31 +1,13 @@
-.conheca h1{
-    text-align: center;
-    margin-top: 22px;
-    margin-bottom: 22px;
-    text-decoration: underline;
+body {
+    overflow-x: hidden;
 }
 
-.numero p{
-    margin-top: 20px;
-    color: white;
-    font-size: 12px;
-    text-decoration: underline;
-    margin-right: auto;
-    margin-right: 200px;
-}
+.conehca h1{
+    text-align: center;
+}   
 
 .sobre img{
-    width: 100%;
-}
-
-.obras h1{
-    font-size: 20px;
-    text-align: center;
-    margin-top: 20px;
-}
-
-.sobre p{
-    margin: auto;
+    width: 400px;
 }
 
 .atendimento{
@@ -33,53 +15,37 @@
     align-items: center;
     justify-content: space-evenly;
     margin: 16px auto;
-  }
-  
-  .atendimento p{
-      margin: 2px auto;
-  }
-  
-  .atendimento P, .atendimento h5{
-      text-align: center;
-  }
-  
-  .atendimento img{
-      width: 100px;
-  }
-  
-  .atendimento .imgs{
-      display: flex;
-      align-items: center;
-      justify-content: space-evenly;
-  }
-
-.obras img{
-    width: 100%;
-    height: 90px;
-    padding: 10px;
 }
 
-  .viacred h2{
+.atendimento p{
+    margin: 2px auto;
+}
+
+.atendimento P, .atendimento h5{
     text-align: center;
-    font-size: 2rem;
-    padding: 0px;
-    display: inline-flex;
-    margin-top: 20px;
-    width: 300px;
-    margin-left: 35%;
 }
 
-.viacred img{
-    width: 180px;
-    margin-left: 60%;
-    margin-bottom: 30px;
+.atendimento img{
+    width: 100px;
 }
 
-footer{
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    background-color: #212529;
-    padding: 1px;
-    
+.atendimento .imgs{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@media(max-width: 1002px){
+    .atendimento{
+        display: block;
+    }
+
+    .atendimento div:nth-of-type(1){
+        margin-bottom: 24px;
+    }
+
+    .atendimento div:nth-of-type(2){
+        max-width: 388px;
+        margin: 0 auto;
+    }
 }
