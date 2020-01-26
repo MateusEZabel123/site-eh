@@ -2,12 +2,19 @@ body {
     overflow-x: hidden;
 }
 
-.conehca h1{
+.conheca h1{
     text-align: center;
+    font-family: cursive;
 }   
 
+.sobre p{
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
 .sobre img{
-    width: 400px;
+    width: 100%;
+    margin-bottom: 7px;
 }
 
 .atendimento{
@@ -23,6 +30,7 @@ body {
 
 .atendimento P, .atendimento h5{
     text-align: center;
+    font-family: cursive;
 }
 
 .atendimento img{
@@ -48,4 +56,17 @@ body {
         max-width: 388px;
         margin: 0 auto;
     }
+}
+
+
+footer{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background-color: #212529;
+    padding: 1px;
+}
+
+footer p{
+    margin: 15px 0;
 }
